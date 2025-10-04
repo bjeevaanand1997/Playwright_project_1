@@ -1,0 +1,16 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="1.313868">
+<testsuite name="tags.spec.js" timestamp="2025-09-23T04:24:47.028Z" hostname="chromium" tests="2" failures="0" skipped="0" time="0.011" errors="0">
+<testcase name="@smoke test 1" classname="tags.spec.js" time="0.005">
+<system-out>
+<![CDATA[test 1 sucessfully executed
+]]>
+</system-out>
+</testcase>
+<testcase name="@smoke test 3" classname="tags.spec.js" time="0.006">
+<system-out>
+<![CDATA[test 3 sucessfully executed
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
