@@ -12,6 +12,7 @@
 //   // simple (first iframe). Narrow selector if needed: 'iframe[src*="frame_1.html"]'
 //   const frameLocator = page.frameLocator('iframe');
 
+
 //   // fill the input inside the iframe
 //   await frameLocator.locator('input[name="mytext1"]').fill('Playwright');
 
@@ -64,4 +65,7 @@ test.only("page navigation",async({page})=>{
     await page.waitForTimeout(2000)
     
 })
+
+
+import { test, expect } from '@playwright/test';
 

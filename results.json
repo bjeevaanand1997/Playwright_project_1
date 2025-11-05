@@ -61,8 +61,8 @@
         "metadata": {
           "actualWorkers": 2
         },
-        "id": "webkit",
-        "name": "webkit",
+        "id": "Google Chrome",
+        "name": "Google Chrome",
         "testDir": "C:/playwright/tests",
         "testIgnore": [],
         "testMatch": [
@@ -80,17 +80,15 @@
   },
   "suites": [
     {
-      "title": "tags.spec.js",
-      "file": "tags.spec.js",
+      "title": "upload.spec.js",
+      "file": "upload.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "@smoke test 1",
+          "title": "multiple upload",
           "ok": true,
-          "tags": [
-            "smoke"
-          ],
+          "tags": [],
           "tests": [
             {
               "timeout": 30000,
@@ -103,75 +101,87 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5,
+                  "duration": 12478,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "test 1 sucessfully executed\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-09-23T04:24:48.256Z",
+                  "startTime": "2025-11-05T15:31:46.049Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\playwright\\test-results\\upload-multiple-upload-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\playwright\\test-results\\upload-multiple-upload-chromium\\video.webm"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "6f04d274b98211334efa-2cdccfd7021c1234e087",
-          "file": "tags.spec.js",
-          "line": 3,
-          "column": 5
+          "id": "795c7691ef25a13245f8-ef8e76b60760fa550135",
+          "file": "upload.spec.js",
+          "line": 21,
+          "column": 6
         },
         {
-          "title": "@smoke test 3",
+          "title": "multiple upload",
           "ok": true,
-          "tags": [
-            "smoke"
-          ],
+          "tags": [],
           "tests": [
             {
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
               "results": [
                 {
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 6,
+                  "duration": 4865,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "test 3 sucessfully executed\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-09-23T04:24:48.160Z",
+                  "startTime": "2025-11-05T15:31:46.076Z",
                   "annotations": [],
-                  "attachments": []
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\playwright\\test-results\\upload-multiple-upload-Google-Chrome\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\playwright\\test-results\\upload-multiple-upload-Google-Chrome\\video.webm"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "6f04d274b98211334efa-57424815d8bf287f0c8c",
-          "file": "tags.spec.js",
-          "line": 13,
-          "column": 5
+          "id": "795c7691ef25a13245f8-9c4a8eff5caeaed0766a",
+          "file": "upload.spec.js",
+          "line": 21,
+          "column": 6
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-09-23T04:24:46.999Z",
-    "duration": 1313.868,
+    "startTime": "2025-11-05T15:31:44.203Z",
+    "duration": 15416.008999999998,
     "expected": 2,
     "skipped": 0,
     "unexpected": 0,

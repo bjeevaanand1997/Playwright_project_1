@@ -1,14 +1,22 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="1.313868">
-<testsuite name="tags.spec.js" timestamp="2025-09-23T04:24:47.028Z" hostname="chromium" tests="2" failures="0" skipped="0" time="0.011" errors="0">
-<testcase name="@smoke test 1" classname="tags.spec.js" time="0.005">
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="15.416008999999999">
+<testsuite name="upload.spec.js" timestamp="2025-11-05T15:31:44.258Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.478" errors="0">
+<testcase name="multiple upload" classname="upload.spec.js" time="12.478">
 <system-out>
-<![CDATA[test 1 sucessfully executed
+<![CDATA[
+[[ATTACHMENT|test-results\upload-multiple-upload-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\upload-multiple-upload-chromium\video.webm]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="@smoke test 3" classname="tags.spec.js" time="0.006">
+</testsuite>
+<testsuite name="upload.spec.js" timestamp="2025-11-05T15:31:44.258Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="4.865" errors="0">
+<testcase name="multiple upload" classname="upload.spec.js" time="4.865">
 <system-out>
-<![CDATA[test 3 sucessfully executed
+<![CDATA[
+[[ATTACHMENT|test-results\upload-multiple-upload-Google-Chrome\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\upload-multiple-upload-Google-Chrome\video.webm]]
 ]]>
 </system-out>
 </testcase>
