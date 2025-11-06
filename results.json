@@ -10,9 +10,7 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {
-      "actualWorkers": 2
-    },
+    "metadata": {},
     "preserveOutput": "always",
     "reporter": [
       [
@@ -42,9 +40,7 @@
         "outputDir": "C:/playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {
-          "actualWorkers": 2
-        },
+        "metadata": {},
         "id": "chromium",
         "name": "chromium",
         "testDir": "C:/playwright/tests",
@@ -58,9 +54,7 @@
         "outputDir": "C:/playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {
-          "actualWorkers": 2
-        },
+        "metadata": {},
         "id": "Google Chrome",
         "name": "Google Chrome",
         "testDir": "C:/playwright/tests",
@@ -78,111 +72,27 @@
     "workers": 6,
     "webServer": null
   },
-  "suites": [
+  "suites": [],
+  "errors": [
     {
-      "title": "upload.spec.js",
-      "file": "upload.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "multiple upload",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 12478,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-11-05T15:31:46.049Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\playwright\\test-results\\upload-multiple-upload-chromium\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\playwright\\test-results\\upload-multiple-upload-chromium\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "795c7691ef25a13245f8-ef8e76b60760fa550135",
-          "file": "upload.spec.js",
-          "line": 21,
-          "column": 6
-        },
-        {
-          "title": "multiple upload",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "passed",
-                  "duration": 4865,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-11-05T15:31:46.076Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\playwright\\test-results\\upload-multiple-upload-Google-Chrome\\test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\playwright\\test-results\\upload-multiple-upload-Google-Chrome\\video.webm"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "795c7691ef25a13245f8-9c4a8eff5caeaed0766a",
-          "file": "upload.spec.js",
-          "line": 21,
-          "column": 6
-        }
-      ]
+      "message": "ReferenceError: page is not defined",
+      "stack": "ReferenceError: page is not defined\n    at Object.<anonymous> (C:\\playwright\\tests\\automation.spec.js:129:23)",
+      "location": {
+        "file": "C:\\playwright\\tests\\automation.spec.js",
+        "column": 23,
+        "line": 129
+      },
+      "snippet": "\u001b[90m   at \u001b[39mautomation.spec.js:129\n\n\u001b[0m \u001b[90m 127 |\u001b[39m\n \u001b[90m 128 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 129 |\u001b[39m \u001b[36mconst\u001b[39m learnSelenium \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'(//div[@class=\"widget-content\"])[3] table[name=\"BookTable\"] td'\u001b[39m\u001b[33m,\u001b[39m {\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 130 |\u001b[39m   hasText\u001b[33m:\u001b[39m \u001b[32m'Learn Selenium'\u001b[39m\n \u001b[90m 131 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 132 |\u001b[39m \u001b[36mawait\u001b[39m expect(learnSelenium)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.",
+      "stack": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."
     }
   ],
-  "errors": [],
   "stats": {
-    "startTime": "2025-11-05T15:31:44.203Z",
-    "duration": 15416.008999999998,
-    "expected": 2,
+    "startTime": "2025-11-06T06:13:09.958Z",
+    "duration": 76.63100000000031,
+    "expected": 0,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

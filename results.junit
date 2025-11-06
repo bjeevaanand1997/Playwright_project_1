@@ -1,24 +1,2 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="15.416008999999999">
-<testsuite name="upload.spec.js" timestamp="2025-11-05T15:31:44.258Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.478" errors="0">
-<testcase name="multiple upload" classname="upload.spec.js" time="12.478">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\upload-multiple-upload-chromium\test-finished-1.png]]
-
-[[ATTACHMENT|test-results\upload-multiple-upload-chromium\video.webm]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="upload.spec.js" timestamp="2025-11-05T15:31:44.258Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="4.865" errors="0">
-<testcase name="multiple upload" classname="upload.spec.js" time="4.865">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\upload-multiple-upload-Google-Chrome\test-finished-1.png]]
-
-[[ATTACHMENT|test-results\upload-multiple-upload-Google-Chrome\video.webm]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
+<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="0.07663100000000031">
 </testsuites>
