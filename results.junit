@@ -1,2 +1,11 @@
-<testsuites id="" name="" tests="0" failures="0" skipped="0" errors="0" time="0.07663100000000031">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.978530000000001">
+<testsuite name="locator.spec.js" timestamp="2025-11-27T10:58:42.503Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.582" errors="0">
+<testcase name="locator for the login page" classname="locator.spec.js" time="7.582">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\locator-locator-for-the-login-page-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
 </testsuites>

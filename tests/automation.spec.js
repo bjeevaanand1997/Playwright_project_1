@@ -1,5 +1,5 @@
 // // tests/blogspot_full_page.spec.js
-import { test, expect } from '@playwright/test';
+// import { test, expect } from '@playwright/test';
 
 // test('End-to-end GUI Elements, Alerts, Windows, Hover & Double-Click', async ({ page, context }, testInfo) => {
 //   await page.goto('https://testautomationpractice.blogspot.com/', { waitUntil: 'domcontentloaded' });
@@ -125,3 +125,13 @@ import { test, expect } from '@playwright/test';
 // });
 
 
+const { test, expect } = require('@playwright/test');
+
+test('Verify Learn Selenium cell in Static Web Table', async ({ page }) => {
+  await page.goto('https://testautomationpractice.blogspot.com/');
+  const learnSeleniumCell = page.locator("//table[@name='BookTable']//td[text()='Learn Selenium']");
+  await expect(learnSeleniumCell).toBeVisible();
+  const text = await learnSeleniumCell.textContent();
+  console.log("✅ Found Cell Text:", text);
+  await expect(learnSeleniumCell).toHaveText('Learn Selenium');
+});
