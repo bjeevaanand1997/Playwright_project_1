@@ -10,6 +10,4 @@ test.only("page navigation",async({page})=>{
     await page.keyboard.type("abchjadjn");
     await page.keyboard.press('Enter');
     await page.waitForTimeout(2000)
-})
-
-    await page.waitForTimeout(2000)
+});
